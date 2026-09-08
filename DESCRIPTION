@@ -1,6 +1,6 @@
 Package: ET0TempModels
 Type: Package
-Title: Reference Evapotranspiration Estimation Using Temperature-Based Models
+Title: Evapotranspiration Estimation Using Temperature-Based Models
 Version: 1.0.0
 Authors@R: c(
     person("Ajay N.", "Satpute", role = "aut"),

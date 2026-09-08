@@ -1,8 +1,0 @@
-cd "E:/Samir/IGFRI/Ajay N Satpute/R Package/ET0models_Temperature_based_package/ET0models_Temperature_based_package"
-
-git init
-git add .
-git commit -m "Initial release of ET0TempModels v1.0.0"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/ET0TempModels.git
-git push -u origin main

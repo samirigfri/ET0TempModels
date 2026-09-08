@@ -47,10 +47,12 @@ for demonstrating package functionality.
 }
 
 \references{
-Singh, A.K., Satpute, A.N., Gupta, G., Ghosh, A., & Barman, S. (2026).
-A Comprehensive Multi-Scale Evaluation and Ranking of 30 Empirical Models
-for Reference Evapotranspiration Estimation in a Data-Scarce Semi-Arid
-Region. Journal of Hydrology: Regional Studies.
+Satpute, A.N., Barman, S., Singh, A.K., Ghosh, A., & Gupta, G. (2026).
+A multi-scale evaluation of 30 empirical models for reference
+evapotranspiration estimation in a data-scarce semi-arid region:
+A case study of Jhansi, India.
+Journal of Hydrology: Regional Studies.
+\doi{10.1016/j.ejrh.2026.103925}
 
 Allen, R.G., Pereira, L.S., Raes, D., & Smith, M. (1998). Crop
 evapotranspiration: Guidelines for computing crop water requirements.
@@ -59,20 +61,20 @@ FAO Irrigation and Drainage Paper No. 56.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ajaysatpute/ET0TempModels}
-  \item Report bugs at \url{https://github.com/ajaysatpute/ET0TempModels/issues}
+  \item \url{https://github.com/samirigfri/ET0TempModels}
+  \item Report bugs at \url{https://github.com/samirigfri/ET0TempModels/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Ajay N. Satpute \email{ajaysatpute48@gmail.com}
+\strong{Maintainer}: Samir Barman \email{samir.igfri@gmail.com} (\href{https://orcid.org/0000-0001-8181-8346}{ORCID})
 
 Authors:
 \itemize{
+  \item Ajay N. Satpute
   \item Amit Kumar Singh
-  \item Gaurendra Gupta
   \item Avijit Ghosh
-  \item Samir Barman
+  \item Gaurendra Gupta
 }
 
 }

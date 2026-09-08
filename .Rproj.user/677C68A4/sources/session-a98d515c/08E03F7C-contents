@@ -1,0 +1,35 @@
+
+#install.packages(c("devtools", "roxygen2", "testthat", "knitr", "rmarkdown"))
+
+devtools::document()
+
+devtools::test()
+
+devtools::check()
+
+#devtools::check(cran = TRUE)
+
+#devtools::install()
+#library(ET0TempModels)
+#data(jhansi_weather)
+
+
+install.packages(".", repos = NULL, type = "source")
+library(ET0TempModels)
+data(jhansi_weather)
+result <- et0_temp_all(
+  Tmin       = jhansi_weather$Tmin,
+  Tmax       = jhansi_weather$Tmax,
+  RH_morning = jhansi_weather$RH_morning,
+  RH_evening = jhansi_weather$RH_evening,
+  u2         = jhansi_weather$WS,
+  n          = jhansi_weather$SSH,
+  J          = jhansi_weather$J,
+  lat        = 25.43,
+  z          = 216
+)
+
+evaluate_models(result$FAO_PM, result[, -1])
+
+
+

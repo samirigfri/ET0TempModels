@@ -4,7 +4,7 @@
 \name{ET0TempModels-package}
 \alias{ET0TempModels-package}
 \alias{ET0TempModels}
-\title{ET0TempModels: Reference Evapotranspiration Estimation Using Temperature-Based Models}
+\title{ET0TempModels: Evapotranspiration Estimation Using Temperature-Based Models}
 \description{
 The \pkg{ET0TempModels} package provides functions for estimating daily reference
 evapotranspiration (ET0) using 10 temperature-based empirical models, with

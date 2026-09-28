@@ -1,4 +1,4 @@
-#' ET0TempModels: Reference Evapotranspiration Estimation Using Temperature-Based Models
+#' ET0TempModels: Evapotranspiration Estimation Using Temperature-Based Models
 #'
 #' The \pkg{ET0TempModels} package provides functions for estimating daily reference
 #' evapotranspiration (ET0) using 10 temperature-based empirical models, with
